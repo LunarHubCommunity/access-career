@@ -1,6 +1,6 @@
 const nav = [
   {
-    route: "/find-career",
+    route: "/",
     text: "Cari Lowongan",
     type: "normal",
   },

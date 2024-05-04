@@ -2,7 +2,12 @@ import React from "react";
 
 function CardCareer() {
   return (
-    <button type="button">
+    <button
+      type="button"
+      data-aos="fade-up"
+      data-aos-duration="1000"
+      data-aos-offset="100"
+    >
       <div className="w-[350px] h-[430px] rounded-[2rem] outline outline-2 outline-[#1A2349] shadow-3xl shadow-[#1A2349] text-[#1A2349]  ">
         <div className="flex justify-between pt-5 px-7 ">
           <h3 className="font-bold text-[#1A2349] text-2xl">Konten Writer</h3>
