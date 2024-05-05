@@ -22,7 +22,7 @@ function Navigation({ children }) {
           </div>
         </nav>
       </header>
-      <main className="h-[300vh]">{children}</main>
+      <main className="h-[300vh] ">{children}</main>
     </>
   );
 }
