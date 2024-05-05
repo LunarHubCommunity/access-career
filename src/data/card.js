@@ -45,3 +45,5 @@ const dataCard = [
       "- Memberikan dukungan dan bantuan terkait produk atau layanan perusahaan.",
   },
 ];
+
+export { dataCard };
