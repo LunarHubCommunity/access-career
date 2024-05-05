@@ -6,7 +6,7 @@ function Navigation({ children }) {
   return (
     <>
       <header className="fixed z-40 top-0 right-0 left-0 shadow-md backdrop-blur-md">
-        <nav className="flex justify-between px-10 py-3 items-center   box-content text-[#1A2349]">
+        <nav className="flex justify-between px-20 py-3 items-center box-content text-[#1A2349]">
           <Link href={""}>
             <h1 className="font-semibold text-xl ">Access Career</h1>
           </Link>
@@ -22,7 +22,7 @@ function Navigation({ children }) {
           </div>
         </nav>
       </header>
-      <main className="h-[300vh] ">{children}</main>
+      <main className="h-[300vh] bg-bgImage">{children}</main>
     </>
   );
 }

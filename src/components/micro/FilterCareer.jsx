@@ -2,7 +2,7 @@ import React from "react";
 
 function FilterCareer() {
   return (
-    <div className="flex justify-between px-[93px]">
+    <div className="flex justify-between px-[93px] mb-8">
       <svg
         fill="none"
         stroke="currentColor"
