@@ -11,7 +11,7 @@ export default function Home() {
   AOS.init();
   return (
     <Navigation>
-      <div className="flex flex-col justify-center items-center mt-[4rem]">
+      <div className="flex flex-col justify-center items-center mt-24 mb-12 gap-5">
         <Heading>Temukan Lowongan Pekerjaan Sesuai Minat anda</Heading>
         <InputSearchCareer placeholder="cari nama pekerjaan dan/perusahaan" />
       </div>
