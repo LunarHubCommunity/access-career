@@ -9,6 +9,7 @@ module.exports = {
     extend: {
       backgroundImage: {
         bgImage: "url('/image/bg-image.png')",
+        topo: "url('/image/topography.png')",
       },
       boxShadow: {
         "3xl": "10px 7px 5px 1px rgba(0, 0, 0, 0.3)",
