@@ -1,7 +1,8 @@
+import React from "react";
 import Navigation from "@/components/Navigation";
 import CardTips from "@/components/micro/CardTips";
 import HeadingContent from "@/components/micro/HeadingContent";
-import React from "react";
+import Footer from "@/components/footer/page";
 
 function page() {
   return (
@@ -19,6 +20,7 @@ function page() {
           <CardTips />
         </div>
       </Navigation>
+      <Footer />
     </>
   );
 }
