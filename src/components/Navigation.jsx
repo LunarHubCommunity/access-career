@@ -7,7 +7,7 @@ function Navigation({ children }) {
     <>
       <header className="fixed z-40 top-0 right-0 left-0 shadow-md backdrop-blur-md">
         <nav className="flex justify-between px-20 py-3 items-center box-content text-[#1A2349]">
-          <Link href={""}>
+          <Link href={"/"}>
             <h1 className="font-semibold text-xl ">Access Career</h1>
           </Link>
           <div className="flex gap-5 font-medium text-sm items-center">

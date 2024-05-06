@@ -10,8 +10,8 @@ const nav = [
     type: "normal",
   },
   {
-    route: "/tips",
-    text: "Tips Career",
+    route: "/tips-career",
+    text: "Tips Karir",
     type: "normal",
   },
   {
