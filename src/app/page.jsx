@@ -18,7 +18,6 @@ export default function Home() {
     const {
       data: { data },
     } = await axios.get("https://be-access-career.vercel.app/career");
-    console.log(data);
     setCareers(data);
   };
   useEffect(() => {
