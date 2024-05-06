@@ -10,9 +10,7 @@ function CardCareer(item) {
     >
       <div className="w-[350px] h-[430px] rounded-[2rem] outline outline-2 outline-[#1A2349] shadow-3xl shadow-[#1A2349] text-[#1A2349]  ">
         <div className="flex justify-between pt-5 px-7 ">
-          <h3 className="font-bold text-[#1A2349] text-2xl box-content">
-            {item.jobName}
-          </h3>
+          <h3 className="font-bold text-[#1A2349] text-2xl ">{item.jobName}</h3>
           <svg
             fill="currentColor"
             viewBox="0 0 16 16"

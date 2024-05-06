@@ -4,7 +4,6 @@ import CardCareer from "@/components/micro/CardCareer";
 import FilterCareer from "@/components/micro/FilterCareer";
 import Heading from "@/components/micro/Heading";
 import InputSearchCareer from "@/components/micro/InputSearchCareer";
-import { dataCard } from "@/data/card";
 import AOS from "aos";
 import "aos/dist/aos.css";
 import axios from "axios";
