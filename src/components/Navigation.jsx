@@ -2,6 +2,7 @@ import Link from "next/link";
 import React from "react";
 import { nav } from "@/utils/navigation";
 import LinkNavigation from "./micro/LinkNavigation";
+import Footer from "@/components/footer/page";
 function Navigation({ children }) {
   return (
     <>
@@ -23,6 +24,7 @@ function Navigation({ children }) {
         </nav>
       </header>
       <main className="h-[300vh] bg-bgImage">{children}</main>
+      <Footer />
     </>
   );
 }

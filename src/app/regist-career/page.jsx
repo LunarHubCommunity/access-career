@@ -2,7 +2,6 @@ import React from "react";
 import Navigation from "@/components/Navigation";
 import CardCompany from "@/components/micro/CardCompany";
 import HeadingContent from "@/components/micro/HeadingContent";
-import Footer from "@/components/footer/page";
 
 function page() {
   return (
@@ -20,7 +19,6 @@ function page() {
           <CardCompany />
         </div>
       </Navigation>
-      <Footer />
     </>
   );
 }
