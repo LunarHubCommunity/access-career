@@ -5,7 +5,7 @@ const nav = [
     type: "normal",
   },
   {
-    route: "/regist-career",
+    route: "/list-company",
     text: "Daftar Perusahaan",
     type: "normal",
   },

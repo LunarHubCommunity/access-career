@@ -40,7 +40,7 @@ function Register() {
           </div>
           <div className="flex justify-center mt-2 ">
             <button
-              className="px-4 py-1 -5  border-2
+              className="px-4 py-1  border
             border-blue-primary rounded-lg
             hover:bg-blue-primary hover:border-white hover:shadow-xl"
             >

@@ -17,8 +17,9 @@ function CardTips() {
               src="/image/bg-company.jpg"
               width={400}
               height={400}
+              priority
               alt=""
-            ></Image>
+            />
           </div>
           <div className="text-start  px-5">
             <p className="text-xl font-semibold">

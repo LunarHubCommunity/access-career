@@ -73,8 +73,8 @@ function CardCareer(item) {
         </div>
         <h4 className="px-7 font-semibold text-left">Detail Pekerjaan</h4>
         <div className="px-10 text-left">
-          {item["job-details"].map((detail) => (
-            <p>{detail.description}</p>
+          {item["job-details"].map((detail, index) => (
+            <p key={index}>{detail.description}</p>
           ))}
         </div>
       </div>

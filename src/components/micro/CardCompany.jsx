@@ -20,7 +20,8 @@ function CardCompany() {
             width={400}
             height={400}
             alt=""
-          ></Image>
+            priority
+          />
         </div>
         <div className="text-start indent-7">
           <p className="text-3xl font-semibold">Penaku.id</p>

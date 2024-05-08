@@ -1,12 +1,12 @@
 import Link from "next/link";
 import React from "react";
-import { nav } from "@/utils/navigation";
+import { nav } from "@/data/navigation";
 import LinkNavigation from "./micro/LinkNavigation";
 import Footer from "@/components/footer/page";
 function Navigation({ children }) {
   return (
     <>
-      <header className="fixed z-40 top-0 right-0 left-0 shadow-md backdrop-blur-md">
+      <header className="fixed z-40 right-0 left-0 shadow-md backdrop-blur-md">
         <nav className="flex justify-between px-20 py-3 items-center box-content text-[#1A2349]">
           <Link href={"/"}>
             <h1 className="font-semibold text-xl ">Access Career</h1>
