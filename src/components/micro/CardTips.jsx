@@ -18,7 +18,7 @@ function CardTips() {
               width={400}
               height={400}
               priority
-              alt=""
+              alt="BG COMPANY"
             />
           </div>
           <div className="text-start  px-5">

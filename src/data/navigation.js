@@ -19,11 +19,6 @@ const nav = [
     text: "Untuk Perusahaan",
     type: "border",
   },
-  {
-    route: "/login",
-    text: "Login",
-    type: "normal",
-  },
 ];
 
 export { nav };

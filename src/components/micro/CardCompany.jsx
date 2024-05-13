@@ -19,7 +19,7 @@ function CardCompany() {
             src="/image/bg-company.jpg"
             width={400}
             height={400}
-            alt=""
+            alt="BG COMPANY"
             priority
           />
         </div>
