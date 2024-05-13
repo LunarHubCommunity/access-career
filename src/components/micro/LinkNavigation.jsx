@@ -24,7 +24,8 @@ function LinkNavigation({ type, text, route }) {
       <div className="flex gap-5 items-center">
         <Link
           href={route}
-          className="border border-black transition-colors duration-200 hover:bg-blue-primary  hover:text-white rounded-md py-[2px] px-[5px]"
+          className="border border-black transition-colors duration-200 hover:bg-blue-primary  hover:text-white 
+          hover:shadow-sm rounded-md py-[2px] px-[5px]"
         >
           <p className="flex items-center">{text}</p>
         </Link>

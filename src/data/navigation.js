@@ -5,7 +5,7 @@ const nav = [
     type: "normal",
   },
   {
-    route: "/regist-career",
+    route: "/list-company",
     text: "Daftar Perusahaan",
     type: "normal",
   },
@@ -18,11 +18,6 @@ const nav = [
     route: "/company",
     text: "Untuk Perusahaan",
     type: "border",
-  },
-  {
-    route: "/login",
-    text: "Login",
-    type: "normal",
   },
 ];
 

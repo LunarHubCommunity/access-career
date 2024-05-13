@@ -2,12 +2,7 @@ import React from "react";
 
 function CardCareer(item) {
   return (
-    <button
-      type="button"
-      data-aos="fade-up"
-      data-aos-duration="1000"
-      data-aos-offset="100"
-    >
+    <button type="button" data-aos="fade-up" data-aos-duration="1000">
       <div className="w-[350px] h-[430px] rounded-[2rem] outline outline-2 outline-[#1A2349] shadow-3xl shadow-[#1A2349] text-[#1A2349] bg-white  ">
         <div className="flex justify-between pt-5 px-7 ">
           <h3 className="font-bold text-[#1A2349] text-2xl ">{item.jobName}</h3>
@@ -73,8 +68,8 @@ function CardCareer(item) {
         </div>
         <h4 className="px-7 font-semibold text-left">Detail Pekerjaan</h4>
         <div className="px-10 text-left">
-          {item["job-details"].map((detail) => (
-            <p>{detail.description}</p>
+          {item["job-details"].map((detail, index) => (
+            <p key={index}>{detail.description}</p>
           ))}
         </div>
       </div>

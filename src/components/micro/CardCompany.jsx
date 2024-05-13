@@ -19,8 +19,9 @@ function CardCompany() {
             src="/image/bg-company.jpg"
             width={400}
             height={400}
-            alt=""
-          ></Image>
+            alt="BG COMPANY"
+            priority
+          />
         </div>
         <div className="text-start indent-7">
           <p className="text-3xl font-semibold">Penaku.id</p>
